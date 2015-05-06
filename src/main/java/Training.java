@@ -7,8 +7,7 @@ class Box {
         double depth;
         }
 
-class BoxDemo2 {
-public class Training {
+class Training {
     public static void main(String[] args) {
         Box mybox1 = new Box();
         Box mybox2 = new Box();
@@ -28,12 +27,11 @@ public class Training {
         //рассчитать объем первого параллелепипеда
 
         vol = mybox1.width * mybox1.height * mybox1.depth;
-        System.out.println("Объем равен" + vol);
+        System.out.println("Объем равен " + vol);
 
         vol = mybox2.width * mybox2.height * mybox2.depth;
-        System.out.println("Объем равен" + vol);
+        System.out.println("Объем равен " + vol);
     }
 
 
     }
-}
